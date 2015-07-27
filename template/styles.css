@@ -196,6 +196,7 @@ nav ul {
 	}
 	section {
 		padding: 1em 3em;
+		min-width: auto;
 	}
 	footer {
 		position: static;
