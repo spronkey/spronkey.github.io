@@ -144,17 +144,14 @@ nav ul {
 		}
 
 @media (max-width: 1500px) {
-	.large {
-		font-size: 250%;
-		margin: 0;
-	}
+	body { font-size: 115%; }
 	section {
 		padding: 0 4em;
 	}
 }
 
 @media (max-width: 1200px) {
-	body { font-size: 110%; }
+	body { font-size: 100%; }
 	header {
 		flex: 10 1 auto;
 		align-self: center;
@@ -164,10 +161,16 @@ nav ul {
 		flex: 7 1 auto;
 		min-width: 400px
 	}
+	.small { font-size: 75%; }
+	.large {
+		font-size: 300%;
+		line-height: auto;
+		margin: 0;
+	}
 }
 
 @media (max-width: 1000px) {
-	body { font-size: 100%; }
+	body { font-size: 135%; }
 	header {
 		align-self: flex-start;
 	}
@@ -194,6 +197,11 @@ nav ul {
 	}
 	footer {
 		position: static;
+	}
+	.large {
+		font-size: 5em;
+		line-height: 0.75em;
+		margin: 0.5em 0;
 	}
 }
 
